@@ -194,9 +194,9 @@ public class ReportServiceImpl implements ReportService {
         Map map = new HashMap();
         map.put("begin",begin);
         map.put("end",end);
-        map.put("completed",status);
+        map.put("status",status);
 
-        return orderMapper.getOrderNumber(map);
+        return orderMapper.countByMap(map);
     }
 
 
