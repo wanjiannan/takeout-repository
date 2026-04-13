@@ -20,6 +20,7 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -302,7 +303,5 @@ public class ReportServiceImpl implements ReportService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }
