@@ -1,5 +1,6 @@
 package com.sky.mapper;
 
+<<<<<<< HEAD
 import com.github.pagehelper.Page;
 import com.sky.annotation.AutoFill;
 import com.sky.dto.DishPageQueryDTO;
@@ -7,6 +8,8 @@ import com.sky.entity.Dish;
 import com.sky.enumeration.OperationType;
 import com.sky.vo.DishVO;
 import org.apache.ibatis.annotations.Delete;
+=======
+>>>>>>> parent of 5292d92 (新增菜品业务代码提交)
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
@@ -24,6 +27,7 @@ public interface DishMapper {
     @Select("select count(id) from dish where category_id = #{categoryId}")
     Integer countByCategoryId(Long categoryId);
 
+<<<<<<< HEAD
     /**
      * 插入菜品数据
      * @param dish
@@ -87,4 +91,6 @@ public interface DishMapper {
      * @return
      */
     Integer countByMap(Map map);
+=======
+>>>>>>> parent of 5292d92 (新增菜品业务代码提交)
 }
