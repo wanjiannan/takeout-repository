@@ -4,3 +4,5 @@
 *.class
 *Test.java
 **/test/
+# 在 .gitignore 中添加
+sky-server/src/main/resources/application-dev.yml
